@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/RubyoffRails/superfight.git
+  revision: 75a5c4f724284ade4132f0a84acf3b2a8e126fcd
+  specs:
+    superfight (0.0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -18,3 +24,4 @@ PLATFORMS
 DEPENDENCIES
   rake
   rspec
+  superfight!
