@@ -3,36 +3,19 @@ Episode 9 - Gems
 
 Simple use of a gem created elsewhere.
 
-Panda Level
+How to Play
 -----------
 
-1. Create a gem named "about-#{username}" ... so mine would be "about-jwo"
-2. Create a Github repository and push your gem
-3. Edit this app to load your Gem
-4. Output some information about you (from the gem)
+1. Clone this repo; checkout this branch: `hw_ep9`
+2. Run `bundle install`
+3. Run `cp -v config/database.yml{.sample,}`
+4. Edit the `config/database.yml` as needed
+5. Run `ruby adventure.rb`
 
-Tiger Level
------------
-
-1. Instead of a console application, update this project to be a Sinatra App
-2. Create version 0.1.0 of your Gem
-3. Specify in your Sinatra Gemfile that you only want ~> 0.1
-
-Eagle Level
------------
-
-1. Implement the Episode 5 Adventure app as a gem
-2. Load the gem here
-
-Show Links
-----------
-
-* Sample Gemfile - https://gist.github.com/fda11aeed226b3c2a024
-* Jeweler - https://github.com/technicalpickles/jeweler
-* Semantic Versioning: http://semver.org/
-* Ruby Toolbox: https://www.ruby-toolbox.com/
+That should play the game for you, using the adventure gem rather than a
+local version of adventure.
 
 Copyright
 ---------
 
-Copyright: Jesse Wolgamott, MIT License (See LICENSE)
+Copyright: 2012 Peter Aronoff, MIT License (See LICENSE)
