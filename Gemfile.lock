@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/RubyoffRails/superfight.git
-  revision: 75a5c4f724284ade4132f0a84acf3b2a8e126fcd
+  remote: git://github.com/johnnygoodman/aboutjohnny.git
+  revision: a68108988003630dbba28bb5dd032ac048faeb9a
   specs:
-    superfight (0.0.1)
+    aboutjohnnygoodman (0.0.1)
 
 GEM
   remote: http://rubygems.org/
@@ -22,6 +22,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aboutjohnnygoodman!
   rake
   rspec
-  superfight!

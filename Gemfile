@@ -2,4 +2,4 @@ source 'http://rubygems.org'
 
 gem 'rake'
 gem 'rspec'
-gem 'superfight', github: "RubyoffRails/superfight"
+gem 'aboutjohnnygoodman', github: "johnnygoodman/aboutjohnny"
