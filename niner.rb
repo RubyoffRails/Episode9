@@ -1,10 +1,12 @@
 require 'rubygems'
 require 'bundler/setup'
-
-Bundler.require
+require 'sinatra'
+require 'aboutjohnnygoodman'
 
 a = About.new
 
-var = rand(3) + 1
-
-puts "Here is a random blurb about johnny: \n\n#{a.johnny(var)}"
+get '/' do
+  var = rand(3) + 1
+  @about = "Here is a random blurb about johnny: \n\n#{a.johnny(var)}"
+  erb :about
+end
