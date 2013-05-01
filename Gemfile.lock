@@ -6,15 +6,16 @@ GIT
 
 GIT
   remote: git://github.com/meltar/about-meltar.git
-  revision: 64a4c0adbc4c2c5b77eb53dc21c94cc6da984e28
+  revision: f5e5126d2f475c756ac755ab2e09144c781a1cb3
   specs:
-    about-meltar (0.0.1)
+    about-meltar (0.1.0)
 
 GEM
   remote: http://rubygems.org/
   specs:
     backports (2.5.3)
     diff-lcs (1.1.3)
+    eventmachine (1.0.3)
     eventmachine (1.0.3-x86-mingw32)
     rack (1.4.5)
     rack-protection (1.2.0)
@@ -48,7 +49,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  about-meltar!
+  about-meltar (~> 0.1.0)!
   rake
   rspec
   sinatra
