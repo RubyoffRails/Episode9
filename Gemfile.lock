@@ -49,7 +49,7 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  about-meltar (~> 0.1.0)!
+  about-meltar (~> 0.1)!
   rake
   rspec
   sinatra
