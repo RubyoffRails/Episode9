@@ -4,6 +4,12 @@ GIT
   specs:
     superfight (0.0.1)
 
+GIT
+  remote: git://github.com/meltar/about-meltar.git
+  revision: 64a4c0adbc4c2c5b77eb53dc21c94cc6da984e28
+  specs:
+    about-meltar (0.0.1)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -20,8 +26,10 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
+  about-meltar!
   rake
   rspec
   superfight!
