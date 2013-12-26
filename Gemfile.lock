@@ -5,6 +5,12 @@ GIT
     abtvar (0.1.0)
 
 GIT
+  remote: git://github.com/var114/adventure.git
+  revision: 2e850eabf0602b4987b36b8dcba3ab91a0d4992d
+  specs:
+    adventure (0.1.0)
+
+GIT
   remote: git://github.com/var114/superfight.git
   revision: 46e886c42da216d8b3fa0478a499428d0ae7c9c1
   specs:
@@ -16,6 +22,7 @@ GEM
     backports (3.3.5)
     diff-lcs (1.2.5)
     multi_json (1.8.2)
+    pg (0.17.0)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
@@ -47,7 +54,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  abtvar (~> 0.1.0)!
+  abtvar (~> 0.1)!
+  adventure (~> 0.1)!
+  pg
   rake
   rspec
   sinatra
