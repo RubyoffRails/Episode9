@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/var114/abtvar.git
-  revision: 8b2ad48c53d944007df4c658eefd843aa0916021
+  revision: b837e35cfbbe7aa0a57e15443dadc72e7bfe6b9d
   specs:
-    abtvar (0.0.1)
+    abtvar (0.1.0)
 
 GIT
   remote: git://github.com/var114/superfight.git
@@ -13,7 +13,14 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
+    backports (3.3.5)
     diff-lcs (1.2.5)
+    multi_json (1.8.2)
+    rack (1.5.2)
+    rack-protection (1.5.1)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
     rake (10.1.0)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
@@ -23,12 +30,26 @@ GEM
     rspec-expectations (2.14.4)
       diff-lcs (>= 1.1.3, < 2.0)
     rspec-mocks (2.14.4)
+    sinatra (1.4.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sinatra-contrib (1.4.2)
+      backports (>= 2.0)
+      multi_json
+      rack-protection
+      rack-test
+      sinatra (~> 1.4.0)
+      tilt (~> 1.3)
+    tilt (1.4.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  abtvar!
+  abtvar (~> 0.1.0)!
   rake
   rspec
+  sinatra
+  sinatra-contrib
   superfight!
