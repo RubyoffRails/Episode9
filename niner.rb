@@ -5,8 +5,8 @@ require 'sinatra'
 Bundler.require
 
 
-get '/' do
+get '/about' do
   @title = Jason.title
   @subject = Jason.subject
-  erb :jason
+  erb :about
 end

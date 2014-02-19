@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/jperezish/about_jason.git
-  revision: 52ccf2f81a96ab47c81ec646f37349e048f26959
+  revision: 2680921f5cce8a9ecd3b27260051a1ca1768098f
   specs:
-    about_jason (0.0.1)
+    about_jason (0.1.0)
 
 GEM
   remote: http://rubygems.org/
@@ -32,7 +32,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  about_jason!
+  about_jason (~> 0.1.0)!
   rake
   rspec
   shotgun
