@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jperezish/about_jason.git
-  revision: 8dc2d461e3b2318b7ab26b4f30598e11ffa14f40
+  revision: 52ccf2f81a96ab47c81ec646f37349e048f26959
   specs:
     about_jason (0.0.1)
 

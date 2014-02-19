@@ -3,4 +3,5 @@ require 'bundler/setup'
 
 Bundler.require
 
-puts Jason.about
+puts Jason.title
+puts Jason.subject
