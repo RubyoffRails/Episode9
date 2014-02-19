@@ -1,7 +1,12 @@
 require 'rubygems'
 require 'bundler/setup'
+require 'sinatra'
 
 Bundler.require
 
-puts Jason.title
-puts Jason.subject
+
+get '/' do
+  @title = Jason.title
+  @subject = Jason.subject
+  erb :jason
+end
