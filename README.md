@@ -27,8 +27,8 @@ Eagle Level
 Show Links
 ----------
 
-* Sample Gemfile - https://gist.github.com/fda11aeed226b3c2a024
-* Jeweler - https://github.com/technicalpickles/jeweler
+* Sample Gemfile: https://gist.github.com/jwo/fda11aeed226b3c2a024
+* How to Name Your Gem (about_jwo vs about-jwo): http://guides.rubygems.org/name-your-gem/
 * Semantic Versioning: http://semver.org/
 * Ruby Toolbox: https://www.ruby-toolbox.com/
 
