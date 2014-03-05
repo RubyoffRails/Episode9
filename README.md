@@ -6,7 +6,7 @@ Simple use of a gem created elsewhere.
 Panda Level
 -----------
 
-1. Create a gem named "about-#{username}" ... so mine would be "about-jwo"
+1. Create a gem named "about_#{username}" ... so mine would be "about_jwo"
 2. Create a Github repository and push your gem
 3. Edit this app to load your Gem
 4. Output some information about you (from the gem)
