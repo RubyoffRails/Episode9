@@ -4,17 +4,9 @@ require 'bundler/setup'
 Bundler.require
 
 puts "--------------------------------"
-puts "welcome to the superfight"
+puts "welcome to my first RubyGem (#{AboutDrammopo::VERSION})"
 puts "--------------------------------"
-puts ""
-puts ""
-puts ""
 
-puts "What is your first fighter's name?"
-fighter_a = $stdin.gets
-puts "What is your second fighter's name?"
-fighter_b = $stdin.gets
-
-match = Match.new(Fighter.new(fighter_a), Fighter.new(fighter_b))
-
-puts "The winner of match is ....... #{match.winner.name}"
+puts "Who create this Gem? #{About.first_name}"
+me = About.new
+puts "Which language is this built it in? #{me.language}"
