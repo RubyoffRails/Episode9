@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/RubyoffRails/superfight.git
-  revision: 75a5c4f724284ade4132f0a84acf3b2a8e126fcd
+  remote: git://github.com/drammopo/about_drammopo.git
+  revision: 0eea6eeac814f960dad578b6981104481099619b
   specs:
-    superfight (0.0.1)
+    about_drammopo (0.0.1)
 
 GEM
   remote: http://rubygems.org/
@@ -22,6 +22,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  about_drammopo!
   rake
   rspec
-  superfight!
