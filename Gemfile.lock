@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/drammopo/about_drammopo.git
-  revision: 5b75c0e8cf8f8ff84bc5b048878a2c6f12cd121f
+  revision: 882d5ca3b4053d4f1191ee1753727f7e922a4ba2
   specs:
     about_drammopo (0.1.0)
 
@@ -43,7 +43,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  about_drammopo (= 0.1.0)!
+  about_drammopo (~> 0.1.0)!
   rake
   rspec
   shotgun
