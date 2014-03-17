@@ -1,13 +1,20 @@
 GIT
-  remote: git://github.com/RubyoffRails/superfight.git
-  revision: 75a5c4f724284ade4132f0a84acf3b2a8e126fcd
+  remote: git://github.com/drammopo/about_drammopo.git
+  revision: 882d5ca3b4053d4f1191ee1753727f7e922a4ba2
   specs:
-    superfight (0.0.1)
+    about_drammopo (0.1.0)
 
 GEM
   remote: http://rubygems.org/
   specs:
+    backports (2.5.3)
     diff-lcs (1.1.3)
+    eventmachine (0.12.10)
+    rack (1.5.2)
+    rack-protection (1.2.0)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
     rake (0.9.2.2)
     rspec (2.10.0)
       rspec-core (~> 2.10.0)
@@ -17,11 +24,28 @@ GEM
     rspec-expectations (2.10.0)
       diff-lcs (~> 1.1.3)
     rspec-mocks (2.10.1)
+    shotgun (0.9)
+      rack (>= 1.0)
+    sinatra (1.3.2)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    sinatra-contrib (1.3.1)
+      backports (>= 2.0)
+      eventmachine
+      rack-protection
+      rack-test
+      sinatra (~> 1.3.0)
+      tilt (~> 1.3)
+    tilt (1.4.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  about_drammopo (~> 0.1.0)!
   rake
   rspec
-  superfight!
+  shotgun
+  sinatra
+  sinatra-contrib
