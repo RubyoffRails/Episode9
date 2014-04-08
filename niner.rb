@@ -1,20 +1,23 @@
 require 'rubygems'
 require 'bundler/setup'
 
-Bundler.require
+require 'sinatra'
+require 'sinatra/reloader'
 
-puts "--------------------------------"
-puts "welcome to the superfight"
-puts "--------------------------------"
-puts ""
-puts ""
-puts ""
+Bundler.require 
 
-puts "What is your first fighter's name?"
-fighter_a = $stdin.gets
-puts "What is your second fighter's name?"
-fighter_b = $stdin.gets
+enable :session
 
-match = Match.new(Fighter.new(fighter_a), Fighter.new(fighter_b))
+x = Abtvar::Bio.new
+puts x.awesome_reply
 
-puts "The winner of match is ....... #{match.winner.name}"
+
+ get '/' do
+  session[:about] = Abtvar::Bio.new
+  @random_answer = session[:about].awesome_reply
+  erb :about
+ end
+
+
+
+
